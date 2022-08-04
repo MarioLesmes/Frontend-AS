@@ -1,0 +1,213 @@
+*{
+  box-sizing: border-box;
+
+}
+/*test coment*/
+.container{ 
+  width: 100vw;
+  height: 130vh;
+  background-color: rgb(137, 133, 192);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mini-container {
+  width: 649px;
+  height: 200px;
+  margin: 0 15px 24px 0;
+  border: 2px solid #000;
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+  background-color: rgb(137, 133, 192);
+}
+ul{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.navbar{
+  display:flex;
+  justify-content: space-between;
+  padding: 0px;
+  background: rgb(240, 247, 240);
+  border-bottom: 1px solid;
+}
+.navbar >li{
+  display: flex;
+  align-items: center;
+}
+.logo {
+  height: 120px;
+  cursor: pointer;
+}
+.mainButton {
+  background-color: rgb(79, 21, 133);
+  color: white;
+  font-weight: bolder;
+  box-shadow: 2px 2px lightblue;
+  border: 20x;
+  padding: 5px 10px;
+  margin: 20px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.mainButton:hover{
+  cursor:pointer;
+  box-shadow: 1px 1px blue;
+  transform: 1.3;
+}
+.buscar {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(85, 50, 243);
+  padding: 5px;
+  margin: 20px;
+  border-radius: 9px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.buscar :focus-within{
+  border: 1px solid blue;
+}
+.buscar > input{
+  outline: none;
+  border: 0px;
+}
+.iconoBusqueda {
+  color: blue;
+}
+.contenedorImagen {
+  width: 350px;
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  
+}
+.contenedorImagen > img{
+  object-fit: fill;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.breedCardContainer {
+  display: flex;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.breedCard {
+  margin: 50px;
+
+}
+.breedTitle {
+  color: rgb(22, 21, 21); 
+  justify-content: center;
+  margin: 10px;
+  font-weight: bold;
+  padding: 10px;
+}
+.mainTitle {
+  justify-content: center;
+  color: blueviolet;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0px;
+  font-size: 60;
+}
+.container-fluid {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
+  padding-inline-start: 4vw;
+  padding-inline-end: 4vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer-menu {
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  border-top: 1px solid #767676;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 10px;
+  font-size: 20;
+}
+
+.casilla{
+  /*tamaño de casilla*/
+  width: 250px;
+  height: 30px;
+  margin: 0;
+  background-color: rgb(24, 117, 40);
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+}
+.h1 {
+
+  padding: 90px 0;
+  color: #2d9f00;
+  text-shadow: 3px 3px 1px rgb(139, 75, 75);
+}
+
+.resultados{
+  width: 60%;
+  height: 100%;
+  background-color: white;
+  border: 3px solid rgba(0, 0, 0, 8);
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  flex-direction: column;
+}
+
+.tablero{
+  width: 60%;
+  height: 40%;
+  background-color: rgba(79, 45, 160, 0.8);
+  border: 1px solid rgba(58, 158, 161, 0.2);
+  color: blue;
+}
+
+.tablero p{
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.botones {
+  width: 60%;
+  height: 20%;
+  background-color: crimson;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  color: red;
+}
+
+.botones button{
+  background-color: white;
+  border-radius: 5px;
+  padding: 2px 4px;
+  border: 2px solid rgba(0, 0, 0, 0.7);
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+}
+p_example {
+  color: darkred;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sams-serif;
+  background-color: rgb(84, 7, 136);
+  border-radius: 28px;
+}
+
+h1,ul{
+  color: #456218;
+}
+
+#div_id {
+  color: green;
+}
