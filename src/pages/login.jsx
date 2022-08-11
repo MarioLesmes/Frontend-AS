@@ -1,6 +1,8 @@
 function Login() {
     return(
-        <div>Esto es una pagina de login</div>
+        <div className="mainContainer">
+            <div>Esto es una pagina de login</div>
+        </div>
     )
 }
 

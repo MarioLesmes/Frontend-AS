@@ -1,6 +1,8 @@
 function Agronomia() {
     return(
-        <div>Esto es una pagina de agronomia</div>
+        <div className="mainContainer">
+            <div>Hola este es el contenido</div>
+        </div>
     )
 }
 

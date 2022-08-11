@@ -20,6 +20,20 @@
   padding: 10px;
   background-color: rgb(137, 133, 192);
 }
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.mainContainer > main{
+  height: 100vh;
+}
+.mainContainer > footer{
+  background-color: rgb(150, 150, 187);
+  padding: 10px;
+}
 ul{
   list-style: none;
   padding: 0px;
